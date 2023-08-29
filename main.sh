@@ -38,9 +38,9 @@ function remove {
 }
 
 function main {
-    read -p "Install, execute, search, or remove package [i/e/s/r]: " sq
+    read -p "Install, execute, search, or remove package [i/e/s/r]: " opt
 
-    case $sq in
+    case $opt in
         [iI] ) install;;
             #break;;
         [eE] ) execute;;
