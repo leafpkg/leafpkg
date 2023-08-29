@@ -49,7 +49,7 @@ function main {
             #break;;
         [rR] ) remove;;
             #break;;
-        * ) break
+        * ) exit
     esac
 }
 
